@@ -36,7 +36,7 @@ resource "aws_vpc" "vpc-us-west-1" {
   provider   = aws.my-west
   tags = {
     "Name" = "vpc-us-west-1"
-     "Dev" = "rightangle_apps"
+     "Dev" = "rightangle_webapp"
   }
 }
 
